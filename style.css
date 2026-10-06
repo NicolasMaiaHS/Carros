@@ -1,0 +1,202 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f4f4;
+    color: #222;
+
+    transition: 0.3s;
+}
+
+
+
+
+header {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 8%;
+
+    background-color: white;
+}
+
+header span {
+    color: #e63946;
+}
+
+
+
+
+button {
+    background-color: #e63946;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 12px 20px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c92f3b;
+}
+
+
+
+
+.inicio {
+    text-align: center;
+
+    padding: 100px 20px;
+}
+
+.inicio h2 {
+    font-size: 45px;
+}
+
+.inicio span {
+    color: #e63946;
+}
+
+.inicio p {
+    color: #666;
+
+    margin: 20px 0;
+}
+
+
+
+
+.carros {
+    padding: 70px 8%;
+
+    background-color: white;
+}
+
+.carros > h2 {
+    margin-bottom: 30px;
+}
+
+.lista {
+    display: flex;
+
+    gap: 20px;
+}
+
+.carro {
+    flex: 1;
+
+    padding: 25px;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    background-color: #f8f8f8;
+}
+
+.imagem {
+    height: 130px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 70px;
+
+    background-color: #ddd;
+
+    margin-bottom: 20px;
+}
+
+.carro h3 {
+    margin-bottom: 10px;
+}
+
+.carro p {
+    color: #666;
+
+    margin-bottom: 15px;
+}
+
+.carro strong {
+    display: block;
+
+    color: #e63946;
+
+    font-size: 20px;
+
+    margin-bottom: 15px;
+}
+
+
+
+
+.contato {
+    text-align: center;
+
+    padding: 80px 20px;
+}
+
+.contato p {
+    color: #666;
+
+    margin: 15px 0 25px;
+}
+
+
+
+
+footer {
+    text-align: center;
+
+    padding: 25px;
+
+    background-color: #222;
+    color: white;
+}
+
+
+
+
+.dark {
+    background-color: #121212;
+    color: white;
+}
+
+.dark header {
+    background-color: #1e1e1e;
+}
+
+.dark .inicio p,
+.dark .contato p {
+    color: #aaa;
+}
+
+.dark .carros {
+    background-color: #181818;
+}
+
+.dark .carro {
+    background-color: #222;
+    border-color: #444;
+}
+
+.dark .carro p {
+    color: #aaa;
+}
+
+.dark .imagem {
+    background-color: #333;
+}
